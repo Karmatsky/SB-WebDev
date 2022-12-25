@@ -1,0 +1,491 @@
+@font-face {
+    font-family: 'Muller'; 
+    src: url(/MullerLightItalic/MullerLightItalic.woff2); 
+}
+body{
+    background: #E5E5E5;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    display: block;
+    margin-top: 30px;
+}
+.header-info{
+    display: flex; 
+    height: 54px; 
+    margin-bottom: 30px;
+    align-items: center;
+}
+.tel{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666666;
+    padding-left: 40px;
+    padding-right: 542px;
+}
+
+.header-info-text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+    display: inline-block;
+    background-image: url(../img/lk.svg);
+    background-size: 21px 12px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 28px;
+    margin-right: 15px;
+}
+.logo{
+    border-radius: 14px;
+}
+
+.header-nav{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 15px;
+    height: 70px;
+    align-items: center;
+}
+.nav-list{
+    
+    display: inline;
+    list-style-type: none;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+    padding-right: 45px;
+}
+.end-text{
+    padding-right: 0px;
+    margin-right: 114px;
+}
+
+.button{
+    box-sizing: border-box;
+    /* display: inline; */
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 20px;
+    gap: 10px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    color: #CC9933;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.header-button{
+    margin-right: 20px;
+}
+.header-button:last-child{
+    margin-right: 0;
+}
+
+.main-title{
+    display: inline-block;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 1170px;
+    margin-top: 70px;
+}
+
+.double-blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.special-offers{
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+}
+
+.special-offers-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.special-offers-block.block-first{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/special-offers/Rectangle\ 15.jpg);
+    /* background-image: url(../img/special-offers/darken\ \(1\).jpg); */
+    /* background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%); */
+    border-radius: 15px;
+    width: 573px;
+    height: 258px;
+    margin-bottom: 15px;
+    margin-right: 24px;
+}
+
+.special-offers-block.block-second{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/special-offers/Rectangle\ 15\ \(1\).jpg);
+    border-radius: 15px;
+    width: 573px;
+    height: 258px;
+    margin-right: 24px;
+}
+.special-offers-block.block-third{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+    background-image: url(../img/special-offers/special-offers-3.jpg);
+    width: 573px;
+    height: 540px;
+    background-size: no-repeat;
+    border-radius: 15px;
+    
+}
+.special-block-text{
+    
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-bottom: 15px;
+    
+}
+.block-third-text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-left: 45px;
+    padding-bottom: 15px;
+}
+
+.block-third-cell{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-left: 45px;
+    padding-bottom: 47px;
+}
+
+.special-block.cell{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-left: 45px;
+    padding-bottom: 47px;  
+}
+.more-link{
+    display: inline-block;
+    background-image: url(../img/show-more.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    align-items: center;
+    padding-right: 25px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #F0BF5F;
+    width: 100px;
+}
+.about-us{
+    width: 888px;
+}
+.about-us-text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}
+
+.services{
+    display: flex;
+}
+.services-blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-blocks-article{
+    width: 573px;
+    height: 330px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #fff;
+    background-size: 573px 165px;
+    border-radius: 15px;
+    background-repeat: no-repeat; 
+    
+}
+
+.services-blocks-article.block-1{
+    background-image: url(../img/sevices/services-1.png);    
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.services-blocks-article.block-2{
+    background-image: url(../img/sevices/services-2.png);
+    margin-bottom: 24px;
+}
+.services-blocks-article.block-3{
+    background-image: url(../img/sevices/services-3.png);
+    margin-right: 24px;
+}
+.services-blocks-article.block-4{
+    background-image: url(../img/sevices/services-4.png);
+}
+
+.article-content{
+    position: absolute;
+    bottom: 35px;
+    left: 45px;
+}
+
+.services-title{
+    display: inline-block;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #CC9933;
+    background-image: url(../img/show-more.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    background-position: right center;
+}
+
+.services-text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}
+
+.benefits-cards-list{
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+
+}
+
+.ben-cards-content{
+    background-color: #FFFFFF;
+    width: 276px;
+    height: 276px;
+    border-radius: 15px;
+    background-size: 64px 66px;
+    background-position: top 40px left 45px;
+    background-repeat: no-repeat;
+    padding-top: 116px;
+    padding-left: 45px;
+    padding-right: 42px;
+}
+.ben-cards-content.card-1{
+    background-image: url(../img/benefis/ben-icon-1.svg);
+    margin-bottom: 22px;
+}
+.ben-cards-content.card-2{
+    background-image: url(../img/benefis/ben-icon-2.svg);
+    margin-bottom: 22px;
+}
+.ben-cards-content.card-3{
+    background-image: url(../img/benefis/ben-icon-3.svg);
+    margin-bottom: 22px;
+}
+.ben-cards-content.card-4{
+    background-image: url(../img/benefis/ben-icon-4.svg);
+    margin-bottom: 22px;
+}
+.ben-cards-content.card-5{
+    background-image: url(../img/benefis/ben-icon-5.svg);
+}
+.ben-cards-content.card-6{
+    background-image: url(../img/benefis/ben-icon-6.svg);
+}
+.ben-cards-content.card-7{
+    background-image: url(../img/benefis/ben-icon-7.svg);
+}
+.ben-cards-content.card-8{
+    background-image: url(../img/benefis/ben-icon-8.svg);
+}
+
+.benefits-cards-text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}
+
+.placement-cards{
+    display: block;
+}
+.placement-list{
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hotel-block-card{
+    display: block;
+    width: 374px;
+    border-radius: 15px;
+    height: 440px;
+    background-color: #fff;
+    margin-bottom: 24px;
+
+}
+
+.hotel-cards-image{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.pretext {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #999999;
+}
+.hotel-card-descr.text.pretext{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #999999;
+}
+
+.hotel-cell-text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+.hotel-card-descr.text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    padding-left: 45px;
+    margin-bottom: 16px;
+}
+.hotel-card-descr.text.nigth{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.hotel-cell{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 4px;
+    padding-top: 32px;
+    padding-left: 45px;
+
+}
+.rating{
+    width: 100px;
+    display: flex;
+    margin-left: 52px;
+}
+.star:not(:last-child){
+    margin-right: 7px;
+
+}
+.hotel-card-button{
+    margin-left: 45px;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+
+.hotel-block-card.card-end{
+    background-image: url(../img/placement/9.jpg);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding-top: 373px;
+    padding-left: 54px;
+}
+
+.show-more-hotels{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    background-image: url(../img/show-more-white.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+    
+
+}
+
+

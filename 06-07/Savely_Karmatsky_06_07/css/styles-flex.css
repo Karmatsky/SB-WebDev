@@ -1,0 +1,173 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    max-width: 1200px;
+    font-family: "font", sans-serif;
+    margin: 0 auto;
+}
+
+.list-reset{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1170px;
+}
+
+.main-title{
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 1170px;
+}
+
+/* Header */
+
+.header-info{
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.logo{
+    margin-right: 40px;
+}
+
+.header-lk{
+    margin-left: auto;
+}
+
+.nav-element:nth-child(-n+5){
+    margin-right: 45px;
+}
+
+.elenent-button:not(:last-child)
+{
+    margin-right: 40px;
+    margin-left: auto;
+}
+
+/* Special offers */
+.offers{
+    width: 573px;
+}
+.double-blocks{
+    columns: 2;
+}
+
+.left-offers-block{
+    flex-direction: column;
+}
+
+/* About-us */
+
+
+/* Services */
+.services-content{
+    columns: 2;
+}
+.services-card{
+    width: 573px;
+}
+
+.services-card:not(:nth-last-child(-n+2)){
+    margin-bottom: 24px;
+}
+
+.services-card:not(:nth-child(2n)){
+    margin-right: 24px;
+}
+
+/* Benefits */
+
+.benefits-cards{
+    width: 276px;
+    height: 276px;
+    align-items: center;
+    padding: 40px 42px 40px 45px;
+}
+
+/* Placement */
+
+.hotel{
+    width: 374px;
+    height: 440px;
+}
+
+.main-content{
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.hotel-card-descr{
+    margin-left: 45px;
+}
+
+.pretext{
+    margin-right: 4px;
+}
+
+.hotel-cell-text{
+    margin-right: 6px;
+}
+
+.cell{
+    margin-right: 72px;
+}
+
+.card-end{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 373px 54px 27px 54px;
+}
+
+.hotel:not(:nth-child(3n)){
+    margin-right: 24px;
+}
+
+.hotel:not(:nth-last-child(-n+3)){
+    margin-bottom: 24px;
+}
+
+.hotel-name{
+    margin-bottom: 16px;
+}
+
+.country{
+    margin-bottom: 20px;
+}
